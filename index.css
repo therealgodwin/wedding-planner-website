@@ -193,7 +193,11 @@ header > .navbar > .link > a{
     section {
         text-align: center;
         height: 500px;
-     
+        
+        background-image: url('assets/phonebg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
         background-color: rgba(255, 208, 0, 0.075);
     
     }
@@ -453,3 +457,234 @@ header > .navbar > .link > a{
     
 }
 
+@media screen and (min-width: 600px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+    .contact h1 {
+        font-family: Geometria-Medium;
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    
+    .contact > form {
+        margin-top: 1em;
+        margin-left: 6em;
+        margin-bottom: 3em;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .contact > h1 {
+        font-family: Geometria-Medium;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+
+    .contact > form {
+        margin-left: 2em;
+        margin-top: 1em;
+        margin-bottom: 3em;
+        margin-right: 2em;
+    }
+}
+
+
+
+.contact > form > input {
+    font-family: Geometria;
+    background-color: #ebe6e1;
+    margin-top: 1em;
+    outline: none;
+    border: none;
+    padding: 1em;
+    font-size: calc(10px + 1vh);
+    border-radius: 10px;
+}
+
+.contact > form > textarea {
+    margin-top: 1em;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-family: Geometria;
+    background-color: #ebe6e1;
+    padding: 2em;
+    max-width: calc(200px + 1vw);
+    min-width: 200px;
+    max-height: 15vh;
+}
+
+@media screen and (min-width: 600px) {
+    .contact > form > label {
+        font-family: Geometria;
+        font-size: calc(10px + 1vh);
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .contact > form > label {
+        display: none;
+    }
+    
+    
+}
+
+
+.submit-button {
+    border: none;
+    border-radius: 10px;
+    font-family: Geometria-Medium;
+    font-size: calc(10px + .5vw);
+    background-color: #ebe6e1;
+    padding: 1em;
+    margin-top: 1em;
+    transition: .5s;
+}
+
+.submit-button:hover {
+    transform: scale(1.1);
+    background-color: tomato;
+    color: white;
+}
+
+.submit-button:active {
+    transform: scale(1.1);
+    background-color: tomato;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    .newsletter {
+        margin-right: 10em;
+        margin-left: 2em;
+    }
+
+    .newsletter > h1{
+        font-family: Geometria-Medium;
+        margin-top: 2em;
+        letter-spacing: 1px;
+        
+    }
+
+    .newsletter > form > label {
+        font-family: Geometria;
+        font-size: calc(8px + 1vw);
+    }
+
+    .newsletter > form > input {
+        margin-top: 2em;
+        background-color: #ebe6e1;
+        border: none;
+        outline: none;
+        padding: 1em;
+        border-radius: 10px;
+        font-family: Geometria;
+        font-size: calc(8px + 1vw);
+    }
+
+    .newsletter > p {
+        color: #c26334;
+        margin-top: 1em;
+        font-family: Geometria;
+        max-width: 40vw;
+        line-height: 2em;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .newsletter {
+        margin-right: 2em;
+        margin-left: 2em;
+        margin-bottom: 3em;
+    }
+
+    .newsletter > h1{
+        font-family: Geometria-Medium;
+        margin-top: 2em;
+        letter-spacing: 1px;
+        
+    }
+
+    .newsletter > form > label {
+        font-family: Geometria;
+        font-size: calc(8px + 1vw);
+    }
+
+    .newsletter > form > input {
+        margin-top: 2em;
+        background-color: #ebe6e1;
+        border: none;
+        outline: none;
+        padding: 1em;
+        border-radius: 10px;
+        font-family: Geometria;
+        font-size: calc(8px + 1vw);
+    }
+
+    .newsletter > p {
+        color: #c26334;
+        margin-top: 1em;
+        font-family: Geometria;
+        font-size: 15px;
+        line-height: 2em;
+    }
+
+    
+    
+}
+
+
+
+.space-left {
+    margin-left: 1em;
+}
+
+
+#subfooter > .group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #847853;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#arrow > i {
+    font-size: 50px;
+}
+
+.group > a {
+    text-decoration: none;
+    font-family: Geometria;
+    color: white;
+    font-size: calc(15px + 1vw);
+}
+
+.group > a:hover ~ #arrow{
+    background-color: violet;
+}
