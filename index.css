@@ -129,6 +129,8 @@ header > .navbar > .link > a{
     }
     
 }
+/**background-image: url('assets/background-image2.jpg');*/
+
 
 @media screen and (max-width: 600px) {
     section {
@@ -137,7 +139,6 @@ header > .navbar > .link > a{
         justify-content: center;
         align-items: center;
         height: 80vh;
-        background-image: url('assets/background-image2.jpg');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
