@@ -34,9 +34,7 @@ header {
 
 @media screen and (max-width: 600px)  {
     .burger-menu {
-        display: flex;
-        justify-content: right;
-        align-self: center;
+        text-align: right;
         margin-right: 1em;
         margin-top: 1em;
         margin-bottom: 1em;
