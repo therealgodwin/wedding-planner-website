@@ -363,19 +363,19 @@ header > .navbar > .link > a{
 .card {
     text-align: center;
     transition: .4s all ease-in-out;
-    filter: grayscale(100);
+    
     
     
 }
 
 .card:hover {
     transform: scale(1.05);
-    filter: grayscale(0);
+    filter: grayscale(100);
 }
 
 .card:active {
     transform: scale(1.05);
-    filter: grayscale(0);
+    filter: grayscale(100);
 }
 
 
