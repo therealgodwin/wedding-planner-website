@@ -193,16 +193,8 @@ header > .navbar > .link > a{
     section {
         text-align: center;
         height: 500px;
-        background-image: url('assets/phonebg.jpg');
-        -webkit-background-attachment:fixed;
-        background-attachment:fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-position: center;
-        background-color: rgba(255, 208, 0, 0.199);
-        background-blend-mode: lighten;
+     
+        background-color: rgba(255, 208, 0, 0.075);
     
     }
 
@@ -223,7 +215,7 @@ header > .navbar > .link > a{
     
     section  > .text-container >  p{
         margin-top: 1em;
-        color: #c7af96;
+        color: #644815;
         font-size: calc(5px + 1vw);
         letter-spacing: 1px;
         font-weight: 400;
