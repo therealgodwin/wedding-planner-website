@@ -390,40 +390,66 @@ header > .navbar > .link > a{
 }
 
 
-
-.before-contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url('assets/couple_facing_sunset.jpg');
-    background-position: center;
-    background-size: cover;
-}
-
-.before-contact > h1 {
-    font-weight: 300;
-    font-family: Geometria;
-    color: #73663b;
-    font-size: calc(15px + 1vw);
-}
-
-.before-contact > p > a {
-    color: #73663b;
-    text-decoration: none;
-}
-
-.before-contact > p {
-    font-size: calc(10px + 1vw);
-    margin-top: 1em;
-    font-family: Geometria;
+@media screen and (min-width: 600px) {
+    .before-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('assets/couple_facing_sunset.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .before-contact > h1 {
+        font-weight: 300;
+        font-family: Geometria;
+        color: #73663b;
+        font-size: calc(15px + 1vw);
+    }
+    
+    .before-contact > p > a {
+        color: #73663b;
+        text-decoration: none;
+    }
+    
+    .before-contact > p {
+        font-size: calc(10px + 1vw);
+        margin-top: 1em;
+        font-family: Geometria;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .before-contact h1 {
-        margin-left: 2em;
-        margin-right: 2em;
+    .before-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url('assets/couple_facing_sunset.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .before-contact > h1 {
+        font-weight: 300;
+        font-family: Geometria;
+        color: #73663b;
+        font-size: calc(15px + 1vw);
+    }
+    
+    .before-contact > p > a {
+        color: #73663b;
+        text-decoration: none;
+    }
+    
+    .before-contact > p {
+        font-size: calc(10px + 1vw);
+        margin-top: 1em;
+        font-family: Geometria;
     }
     
 }
+
