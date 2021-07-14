@@ -140,8 +140,8 @@ header > .navbar > .link > a{
         background-image: url('assets/background-image2.jpg');
         background-attachment:fixed;
         background-repeat: no-repeat;
+        background-size:cover;
         background-position: center;
-        background-size: cover;
         background-color: rgba(255, 208, 0, 0.199);
         background-blend-mode: lighten;
     
@@ -194,10 +194,9 @@ section h4 {
     margin: auto;
     margin-top: 2em;
 }
-.content h1 {
+.content > h1 {
     color: #2F2E2E;
     font-family: Geometria-Medium;
-    font-weight: 200;
     font-size: calc(15px + 1vw);
     margin-bottom: 10px;
 }
@@ -205,7 +204,6 @@ section h4 {
 .content p {
     color: #2F2E2E;
     font-family: Geometria;
-    font-weight: lighter;
     font-size: calc(10px + .5vw);
     line-height: 1.5em;
 }
