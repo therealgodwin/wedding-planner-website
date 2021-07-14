@@ -137,7 +137,6 @@ header > .navbar > .link > a{
         background-image: url('assets/background-image2.jpg');
         -webkit-background-attachment:fixed;
         background-attachment:fixed;
-        background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
