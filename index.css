@@ -221,7 +221,7 @@ header {
         text-align: center;
         height: 500px;
         
-        background-image: url(assets/background-image2.jpg);
+        background-image: url('assets/background-image2.jpg');
         background-attachment: scroll;
         background-position: center;
         background-size: cover;
@@ -430,6 +430,7 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
+        background-attachment: fixed;
         background-image: url('assets/couple_facing_sunset.jpg');
         background-position: center;
         background-size: cover;
