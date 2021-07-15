@@ -21,32 +21,6 @@ header {
     background-color: white;
 }
 
-@font-face {
-    font-family: 'Geometria-Medium';
-    src: url('/assets/fonts/Geometria-Medium.woff2') format('woff2'),
-        url('/assets/fonts/Geometria-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Geometria';
-    src: url('/assets/fonts/Geometria.woff') format('woff'), url('/assets/fonts/Geometria.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-@font-face {
-    font-family: 'Estampa Script';
-    src: url('/assets/fonts/EstampaScript-Regular.woff2') format('woff2'), url('/assets/fonts/EstampaScript-Regular.woff') format('woff');      
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-    }
-    
 
 
 @media screen and (min-width: 600px) {
@@ -155,7 +129,7 @@ header {
     
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
     
 @media screen and (min-width: 600px) {
     section {
@@ -181,6 +155,7 @@ header {
         margin-left: calc(12px + 1vw);
         margin-right: calc(12px + 1vw);
         text-align: center;
+        padding-bottom: 5em;
     }
     
     section > .text-container > .title{
@@ -223,15 +198,16 @@ header {
     }
     .content > h1 {
         color: #2F2E2E;
-        font-family: 'Geometria-Medium', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
         font-size: calc(15px + 1vw);
         margin-bottom: 10px;
     }
     
     .content p {
         color: #2F2E2E;
-        font-family: 'Geometria';
-        font-size: calc(10px + .5vw);
+        font-family: 'Montserrat', sans-serif;
+        font-size: calc(9px + .5vw);
         line-height: 1.5em;
     }
     
@@ -268,24 +244,24 @@ header {
     }
     
     section  > .text-container >  p{
-        margin-top: 1em;
+        margin-top: 3em;
         color: rgba(255, 255, 255, 0.856);
         font-size: calc(5px + 1vw);
         letter-spacing: 1px;
         font-weight: 400;
       
         text-transform: uppercase;
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
     }
     
     section h4 {
         text-align: center;
-        margin-top: 3em;
+        margin-top: 15em;
         letter-spacing: 2px;
         text-transform: uppercase;
-        font-family: 'Geometria-Medium', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 2em;
-        font-weight: 200;
+        font-weight: 500;
         font-size: calc(5px + 1vw);
         color: rgba(255, 255, 255, 0.856);
     }
@@ -299,14 +275,14 @@ header {
     }
     .content > h1 {
         color: #2F2E2E;
-        font-family: 'Geometria-Medium', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: calc(15px + 1vw);
         margin-bottom: 10px;
     }
     
     .content p {
         color: #2F2E2E;
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
         font-size: calc(10px + .5vw);
         line-height: 1.5em;
     }
@@ -361,15 +337,15 @@ header {
     margin-top: 1em;
     font-size: calc(15px + 1vw);
     color: #2F2E2E;
-    font-family: 'Geometria-Medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .text-content > span {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 100;
     color: #2F2E2E;
-    font-size: 14px;
+    font-size: calc(6px + 1vw);
 }
 
 .text-content p {
@@ -473,7 +449,7 @@ header {
     .before-contact > p {
         font-size: calc(10px + 1vw);
         margin-top: 1em;
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
@@ -486,6 +462,7 @@ header {
         text-align: center;
         background-image: url('assets/couple_facing_sunset.jpg');
         height: 500px;
+        padding: 1.5em;
         background-attachment: scroll;
         background-position: center center;
         background-size: cover;
@@ -494,9 +471,9 @@ header {
     .before-contact > h1 {
         
         font-weight: 300;
-        font-family: 'Geometria';
+        font-family: Kottario;
         color: #73663b;
-        font-size: calc(15px + 1vw);
+        font-size: calc(30px + 1vw);
     }
     
     .before-contact > p > a {
@@ -505,9 +482,9 @@ header {
     }
     
     .before-contact > p {
-        font-size: calc(10px + 1vw);
+        font-size: calc(8px + 1vw);
         margin-top: 1em;
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
     }
     
 }
@@ -532,7 +509,7 @@ header {
 
 @media screen and (min-width: 600px) {
     .contact h1 {
-        font-family: 'Geometria-Medium', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 2em;
         margin-left: 3em;
     }
@@ -549,7 +526,7 @@ header {
 
 @media screen and (max-width: 600px) {
     .contact > h1 {
-        font-family: 'Geometria-Medium', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 2em;
         margin-left: 1em;
     }
@@ -565,7 +542,7 @@ header {
 
 
 .contact > form > input {
-    font-family: 'Geometria';
+    font-family: 'Montserrat', sans-serif;
     background-color: #ebe6e1;
     margin-top: 1em;
     outline: none;
@@ -580,7 +557,7 @@ header {
     border: none;
     border-radius: 10px;
     outline: none;
-    font-family: 'Geometria';
+    font-family: 'Montserrat', sans-serif;
     background-color: #ebe6e1;
     padding: 2em;
     max-width: calc(200px + 1vw);
@@ -590,7 +567,7 @@ header {
 
 @media screen and (min-width: 600px) {
     .contact > form > label {
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
         font-size: calc(10px + 1vh);
     }
     
@@ -608,10 +585,11 @@ header {
 .submit-button {
     border: none;
     border-radius: 10px;
-    font-family: 'Geometria-Medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: calc(10px + .5vw);
     background-color: #ebe6e1;
-    padding: 1em;
+    padding: .7em;
     margin-top: 1em;
     transition: .5s;
 }
@@ -635,14 +613,14 @@ header {
     }
 
     .newsletter > h1{
-        font-family: 'Geometria-Medium', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 2em;
         letter-spacing: 1px;
         
     }
 
     .newsletter > form > label {
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
         font-size: calc(8px + 1vw);
     }
 
@@ -653,14 +631,14 @@ header {
         outline: none;
         padding: 1em;
         border-radius: 10px;
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
         font-size: calc(8px + 1vw);
     }
 
     .newsletter > p {
         color: #c26334;
         margin-top: 1em;
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
         max-width: 40vw;
         line-height: 2em;
     }
@@ -677,14 +655,14 @@ header {
     }
 
     .newsletter > h1{
-        font-family: 'Geometria-Medium', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 2em;
         letter-spacing: 1px;
         
     }
 
     .newsletter > form > label {
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
         font-size: calc(8px + 1vw);
     }
 
@@ -693,16 +671,16 @@ header {
         background-color: #ebe6e1;
         border: none;
         outline: none;
-        padding: 1em;
+        padding: .7em;
         border-radius: 10px;
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
         font-size: calc(8px + 1vw);
     }
 
     .newsletter > p {
         color: #c26334;
         margin-top: 1em;
-        font-family: 'Geometria';
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         line-height: 2em;
     }
@@ -735,7 +713,7 @@ header {
 
 .group > a {
     text-decoration: none;
-    font-family: 'Geometria';
+    font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: calc(15px + 1vw);
 }
