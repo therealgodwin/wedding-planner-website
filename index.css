@@ -221,9 +221,9 @@ header {
         text-align: center;
         height: 500px;
         
-        background: #ff9966;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ff5e61bd, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #ee9ca7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 
@@ -457,17 +457,19 @@ header {
 @media screen and (max-width: 600px) {
     .before-contact {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
         text-align: center;
         background-image: url('assets/couple_facing_sunset.jpg');
+        height: 300px;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center center;
         background-size: cover;
     }
     
     .before-contact > h1 {
+        
         font-weight: 300;
         font-family: Geometria;
         color: #73663b;
