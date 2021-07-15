@@ -152,7 +152,7 @@ header {
         text-decoration: none;
         font-size: calc(10px + .2vw);
         line-height: 3em;
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         margin-top: 200px;
         
     }
@@ -211,7 +211,7 @@ header {
         margin-top: 3em;
         letter-spacing: 2px;
         text-transform: uppercase;
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         line-height: 2em;
         font-weight: 100;
         font-size: calc(5px + 1vw);
@@ -226,7 +226,7 @@ header {
     }
     .content > h1 {
         color: #2F2E2E;
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         font-size: calc(15px + 1vw);
         margin-bottom: 10px;
     }
@@ -286,7 +286,7 @@ header {
         margin-top: 3em;
         letter-spacing: 2px;
         text-transform: uppercase;
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         line-height: 2em;
         font-weight: 200;
         font-size: calc(5px + 1vw);
@@ -302,7 +302,7 @@ header {
     }
     .content > h1 {
         color: #2F2E2E;
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         font-size: calc(15px + 1vw);
         margin-bottom: 10px;
     }
@@ -364,12 +364,12 @@ header {
     margin-top: 1em;
     font-size: calc(15px + 1vw);
     color: #2F2E2E;
-    font-family: 'Geometria-Medium';
+    font-family: 'Geometria-Medium', sans-serif;
 
 }
 
 .text-content > span {
-    font-family: 'Geometria-Medium';
+    font-family: 'Geometria-Medium', sans-serif;
     color: #2F2E2E;
     font-size: 16px;
 }
@@ -534,7 +534,7 @@ header {
 
 @media screen and (min-width: 600px) {
     .contact h1 {
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         margin-top: 2em;
         margin-left: 3em;
     }
@@ -551,7 +551,7 @@ header {
 
 @media screen and (max-width: 600px) {
     .contact > h1 {
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         margin-top: 2em;
         margin-left: 1em;
     }
@@ -610,7 +610,7 @@ header {
 .submit-button {
     border: none;
     border-radius: 10px;
-    font-family: 'Geometria-Medium';
+    font-family: 'Geometria-Medium', sans-serif;
     font-size: calc(10px + .5vw);
     background-color: #ebe6e1;
     padding: 1em;
@@ -637,7 +637,7 @@ header {
     }
 
     .newsletter > h1{
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         margin-top: 2em;
         letter-spacing: 1px;
         
@@ -679,7 +679,7 @@ header {
     }
 
     .newsletter > h1{
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         margin-top: 2em;
         letter-spacing: 1px;
         
