@@ -127,6 +127,12 @@ header {
     
 }
 
+@font-face {
+    font-family: Kottario;
+    src: url(/assets/fonts/Kottario.otf);
+    src: url(/assets/fonts/Kottario.ttf);
+}
+
 
 
 @media screen and (min-width: 600px) {
@@ -156,8 +162,9 @@ header {
     }
     
     section > .text-container > .title{
-        font-size: calc(30px + 1vw);
-        color: #cfbeb4;
+        font-size: calc(35px + 1vw);
+        color: white;
+        font-family: Kottario;
         text-transform: uppercase;
     
     }
@@ -213,9 +220,9 @@ header {
         text-align: center;
         height: 500px;
         
-        background: #556270;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #ff9966;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 
@@ -226,11 +233,15 @@ background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, F
      
         text-align: center;
     }
+
+    
     
     section > .text-container > .title{
         font-size: calc(30px + 1vw);
         color: rgba(255, 255, 255, 0.856);
         text-transform: uppercase;
+        font-family: Kottario;
+
     
     }
     
@@ -425,9 +436,9 @@ background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, F
     
     .before-contact > h1 {
         font-weight: 300;
-        font-family: Geometria;
+        font-family: Kottario;
         color: #73663b;
-        font-size: calc(15px + 1vw);
+        font-size: calc(30px + 1vw);
     }
     
     .before-contact > p > a {
