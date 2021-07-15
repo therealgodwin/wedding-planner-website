@@ -236,7 +236,7 @@ header {
     
     
     section > .text-container > .title{
-        font-size: calc(30px + 1vw);
+        font-size: calc(40px + 1vw);
         color: rgba(255, 255, 255, 0.856);
         font-family: 'Allura', cursive;
 
@@ -256,7 +256,7 @@ header {
     
     section h4 {
         text-align: center;
-        margin-top: 15em;
+        margin-top: calc(10em + 1vh);
         letter-spacing: 2px;
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
@@ -649,8 +649,7 @@ header {
 
 @media screen and (max-width: 600px) {
     .newsletter {
-        margin-right: 2em;
-        margin-left: 2em;
+        margin-left: 1em;
         margin-bottom: 3em;
     }
 
