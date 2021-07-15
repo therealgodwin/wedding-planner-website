@@ -140,7 +140,7 @@ header {
         text-decoration: none;
         font-size: calc(10px + .2vw);
         line-height: 10px;
-        font-family: 'Geometria-Medium';
+        font-family: 'Geometria-Medium', sans-serif;
         
     }
     
