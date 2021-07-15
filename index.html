@@ -130,12 +130,12 @@
         <div class="contact" id="contact">
             <h1>Let's talk</h1>
 
-            <form action="" method="post">
+            <form action="" method="post" id="contact-form">
                 <label for="firstName">First Name: </label><input type="text" name="firstName" id="firstName" placeholder="First Name" required> <br>
                 <label for="lastName">Last Name: </label><input type="text" name="lastName" id="lastName" placeholder="Last Name" required> <br>
                 <label for="message" class="message-label">Your Message: </label>
                 <br>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Have any questions?" required></textarea> <br>
+                <textarea name="message" id="textarea" cols="30" rows="10" placeholder="Have any questions?" required></textarea> <br>
     
                 <button type="submit" class="submit-button">Submit</button>
             </form>
@@ -144,9 +144,9 @@
         <div class="newsletter">
             <h1>Sign up for our newsletter!</h1>
             
-            <form action="" method="post">
+            <form action="" method="post" id="newsletter-form">
 
-                <label for="email">Email: </label><input type="email" name="email" id="email" required>
+                <label for="email">Email: </label><input type="email" name="email" id="email" placeholder="Enter your email here" required>
 
                 <button type="submit" class="submit-button space-left">Submit</button>
 
@@ -186,6 +186,26 @@
             navbar.find(".link").click(function () {
                 navbar.toggle("slow")
             })
+
+            var form = $("#contact-form")
+            var firstName = form.find("#firstName")
+            var lastName = form.find("#lastName")
+            var textarea = form.find("#textarea")
+            form.submit(function(e) {
+                e.preventDefault();
+
+                firstName.val('')
+                lastName.val('')
+                textarea.val('')
+            })
+
+            var newsletterForm = $("#newsletter-form")
+            newsletterForm.submit(function(e) {
+                e.preventDefault();
+
+                $(this).find("#email").val('')
+            })
+
 
            
         })
