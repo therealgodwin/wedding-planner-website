@@ -35,8 +35,8 @@
         </div>
 
         <div class="burger-menu">
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+            <a href="javascript:void(0);" class="burger-style" id="showNavs">
+                <i class="fa fa-bars" style="color: black;"></i>
               </a>
         </div>
        
@@ -44,16 +44,16 @@
 
     <section id="hero"> 
         <div class="text-container">
-            <h1 class="title">Events & Weddings by Godwin</h1>
-            <p><span class="line">-</span> An event planning organization for all of your needs! <span class="line">-</span></p>
-            <h4>Specializing in events & weddings in cebu city, davao city, makati, manila city, bgc, & boracay.</h4>
+            <h1 class="title">Timeless Wedding Events <br> by Godwin</h1>
+            <p><span class="line">-</span> An wedding planning organization to make your special day last. <span class="line">-</span></p>
+            <h4>Specializing in weddings all around cebu city, davao city, makati, manila city, bgc, & boracay.</h4>
         </div>
     
     </section>
 
     <div class="content" id="about">
         <h1>About Us</h1>
-        <p>Events & Weddings by Godwin provides a team that is surely dedicated to make your special day last. We are a team of professionals who will provide you with whatever you need to get started with your own dream wedding! With over 10+ years of experience we have engraved our client's beautiful memories into a path to forever. See our gallery below to get started with your own dream wedding.</p>
+        <p>Timeless Wedding Events by Godwin provides a team that is surely dedicated to make your special day last. We are a team of professionals who will provide you with whatever you need to get started with your own dream wedding! With over 10+ years of experience we have engraved our client's beautiful memories into a path to forever. See our gallery below to get started with your own dream wedding.</p>
         
         <div class="flex-item">
             <img src="assets/guy.jpg" alt="">
@@ -131,11 +131,11 @@
             <h1>Let's talk</h1>
 
             <form action="" method="post">
-                <label for="firstName">First Name: </label><input type="text" name="firstName" id="firstName" required> <br>
-                <label for="lastName">Last Name: </label><input type="text" name="lastName" id="lastName" required> <br>
+                <label for="firstName">First Name: </label><input type="text" name="firstName" id="firstName" placeholder="First Name" required> <br>
+                <label for="lastName">Last Name: </label><input type="text" name="lastName" id="lastName" placeholder="Last Name" required> <br>
                 <label for="message" class="message-label">Your Message: </label>
                 <br>
-                <textarea name="message" id="" cols="30" rows="10" required></textarea> <br>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Have any questions?" required></textarea> <br>
     
                 <button type="submit" class="submit-button">Submit</button>
             </form>
@@ -172,5 +172,19 @@
     
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="assets/js/lightbox.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var navbar = $("#navbar")
+            var showNavs = $("#showNavs")
+
+            $("#showNavs").click(function() {
+                navbar.toggle("slow")
+                
+            })
+
+           
+        })
+    </script>
 </body>
 </html>

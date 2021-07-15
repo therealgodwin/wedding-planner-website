@@ -18,17 +18,10 @@ header {
 @media screen and (min-width: 600px) {
     .burger-menu {
         display: none;
-        justify-content: right;
-        align-self: center;
-        margin-right: 1em;
-        margin-top: 1em;
-        margin-bottom: 1em;
+
     }
     
-    .burger-menu > a{
-        font-size: calc(14px + 1em);
-        color: black;
-    }
+
     
 }
 
@@ -43,12 +36,18 @@ header {
         margin-bottom: 1em;
     }
     
-    .burger-menu > a{
+    .burger-menu > .burger-style{
         font-size: calc(14px + 1em);
+        color: white;
+    }
+
+    .set-black {
         color: black;
     }
     
+    
 }
+
 
 
 @media screen and (min-width: 600px) {
@@ -82,7 +81,12 @@ header {
 }
 @media screen and (max-width: 600px) {
     header > .navbar {
-        display: none;
+        padding-top: 1em;
+        margin-left: 2em;
+        display: none ;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 1em;
     }
     
 }
@@ -98,13 +102,28 @@ header {
     font-family: Geometria-Medium;
     src: url(/assets/fonts/Geometria-Medium.ttf);
 }
+@media screen and (min-width: 600px) {
+    header > .navbar > .link > a{
+        color: black;
+        text-decoration: none;
+        font-size: calc(10px + .2vw);
+        line-height: 10px;
+        font-family: Geometria-Medium;
+        
+    }
+    
+}
 
-header > .navbar > .link > a{
-    color: black;
-    text-decoration: none;
-    font-size: calc(10px + .2vw);
-    line-height: 10px;
-    font-family: Geometria-Medium;
+@media screen and (max-width: 600px){
+    header > .navbar > .link > a{
+        color: black;
+        text-decoration: none;
+        font-size: calc(10px + .2vw);
+        line-height: 3em;
+        font-family: Geometria-Medium;
+        margin-top: 200px;
+        
+    }
     
 }
 
@@ -194,12 +213,10 @@ header > .navbar > .link > a{
         text-align: center;
         height: 500px;
         
-        background-image: url('assets/phonebg.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        background-color: rgba(255, 208, 0, 0.075);
-    
+        background: #556270;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     }
 
     .text-container {
@@ -212,14 +229,14 @@ header > .navbar > .link > a{
     
     section > .text-container > .title{
         font-size: calc(30px + 1vw);
-        color: #c7af96;
+        color: rgba(255, 255, 255, 0.856);
         text-transform: uppercase;
     
     }
     
     section  > .text-container >  p{
         margin-top: 1em;
-        color: #644815;
+        color: rgba(255, 255, 255, 0.856);
         font-size: calc(5px + 1vw);
         letter-spacing: 1px;
         font-weight: 400;
@@ -237,7 +254,7 @@ header > .navbar > .link > a{
         line-height: 2em;
         font-weight: 200;
         font-size: calc(5px + 1vw);
-        color: #644815;
+        color: rgba(255, 255, 255, 0.856);
     }
 
     .content {
@@ -668,7 +685,7 @@ header > .navbar > .link > a{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #847853;
+    background-color: #bfbab3;
     height: fit-content;
     text-align: center;
     padding-bottom: 1em;
@@ -681,7 +698,7 @@ header > .navbar > .link > a{
 .group > a {
     text-decoration: none;
     font-family: Geometria;
-    color: white;
+    color: black;
     font-size: calc(15px + 1vw);
 }
 
