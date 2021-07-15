@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@400;500&family=Tangerine&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -185,10 +184,10 @@ header {
     }
     
     section > .text-container > .title{
-        font-size: calc(50px + 1vw);
+        font-size: calc(70px + 1vw);
         color: white;
         letter-spacing: 4px;
-        font-family: 'Estampa Script';
+        font-family: 'Allura', cursive;
     
     }
     
@@ -263,7 +262,7 @@ header {
     section > .text-container > .title{
         font-size: calc(30px + 1vw);
         color: rgba(255, 255, 255, 0.856);
-        font-family: 'Estampa Script';
+        font-family: 'Allura', cursive;
 
     
     }
