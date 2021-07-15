@@ -22,6 +22,40 @@ header {
     background-color: white;
 }
 
+@font-face {
+    font-family: 'Geometria-Medium';
+    src: url('/assets/fonts/Geometria-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Geometria-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('Geometria.woff2') format('woff2'),
+        url('Geometria.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Estampa Script';
+        src: url('/assets/fonts/EstampaScript-Regular.eot');
+        src: url('/assets/fonts/EstampaScript-Regular.eot?#iefix') format('embedded-opentype'),
+            url('/assets/fonts/EstampaScript-Regular.woff2') format('woff2'),
+            url('/assets/fonts/EstampaScript-Regular.woff') format('woff'),
+            url('/assets/fonts/EstampaScript-Regular.ttf') format('truetype'),
+            url('/assets/fonts/EstampaScript-Regular.svg#EstampaScript-Regular') format('svg');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+
+
 @media screen and (min-width: 600px) {
     .burger-menu {
         display: none;
@@ -100,22 +134,14 @@ header {
 
 
 
-@font-face {
-    font-family: Geometria;
-    src: url(/assets/fonts/Geometria.ttf);
-}
 
-@font-face {
-    font-family: Geometria-Medium;
-    src: url(/assets/fonts/Geometria-Medium.ttf);
-}
 @media screen and (min-width: 600px) {
     header > .navbar > .link > a{
         color: black;
         text-decoration: none;
         font-size: calc(10px + .2vw);
         line-height: 10px;
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         
     }
     
@@ -127,26 +153,14 @@ header {
         text-decoration: none;
         font-size: calc(10px + .2vw);
         line-height: 3em;
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         margin-top: 200px;
         
     }
     
 }
 
-@font-face {
-    font-family: 'Estampa Script';
-        src: url('/assets/fonts/EstampaScript-Regular.eot');
-        src: url('/assets/fonts/EstampaScript-Regular.eot?#iefix') format('embedded-opentype'),
-            url('/assets/fonts/EstampaScript-Regular.woff2') format('woff2'),
-            url('/assets/fonts/EstampaScript-Regular.woff') format('woff'),
-            url('/assets/fonts/EstampaScript-Regular.ttf') format('truetype'),
-            url('/assets/fonts/EstampaScript-Regular.svg#EstampaScript-Regular') format('svg');
-        font-weight: normal;
-        font-style: italic;
-        font-display: swap;
-    }
-    
+
     
 @media screen and (min-width: 600px) {
     section {
@@ -190,7 +204,7 @@ header {
         font-weight: 400;
       
         text-transform: uppercase;
-        font-family: Geometria;
+        font-family: 'Geometria';
     }
     
     section h4 {
@@ -198,7 +212,7 @@ header {
         margin-top: 3em;
         letter-spacing: 2px;
         text-transform: uppercase;
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         line-height: 2em;
         font-weight: 100;
         font-size: calc(5px + 1vw);
@@ -213,14 +227,14 @@ header {
     }
     .content > h1 {
         color: #2F2E2E;
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         font-size: calc(15px + 1vw);
         margin-bottom: 10px;
     }
     
     .content p {
         color: #2F2E2E;
-        font-family: Geometria;
+        font-family: 'Geometria';
         font-size: calc(10px + .5vw);
         line-height: 1.5em;
     }
@@ -252,7 +266,6 @@ header {
     section > .text-container > .title{
         font-size: calc(30px + 1vw);
         color: rgba(255, 255, 255, 0.856);
-        text-transform: uppercase;
         font-family: 'Estampa Script';
 
     
@@ -266,7 +279,7 @@ header {
         font-weight: 400;
       
         text-transform: uppercase;
-        font-family: Geometria;
+        font-family: 'Geometria';
     }
     
     section h4 {
@@ -274,7 +287,7 @@ header {
         margin-top: 3em;
         letter-spacing: 2px;
         text-transform: uppercase;
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         line-height: 2em;
         font-weight: 200;
         font-size: calc(5px + 1vw);
@@ -290,14 +303,14 @@ header {
     }
     .content > h1 {
         color: #2F2E2E;
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         font-size: calc(15px + 1vw);
         margin-bottom: 10px;
     }
     
     .content p {
         color: #2F2E2E;
-        font-family: Geometria;
+        font-family: 'Geometria';
         font-size: calc(10px + .5vw);
         line-height: 1.5em;
     }
@@ -352,12 +365,12 @@ header {
     margin-top: 1em;
     font-size: calc(15px + 1vw);
     color: #2F2E2E;
-    font-family: Geometria-Medium;
+    font-family: 'Geometria-Medium';
 
 }
 
 .text-content > span {
-    font-family: Geometria-Medium;
+    font-family: 'Geometria-Medium';
     color: #2F2E2E;
     font-size: 16px;
 }
@@ -463,7 +476,7 @@ header {
     .before-contact > p {
         font-size: calc(10px + 1vw);
         margin-top: 1em;
-        font-family: Geometria;
+        font-family: 'Geometria';
     }
 }
 
@@ -484,7 +497,7 @@ header {
     .before-contact > h1 {
         
         font-weight: 300;
-        font-family: Geometria;
+        font-family: 'Geometria';
         color: #73663b;
         font-size: calc(15px + 1vw);
     }
@@ -497,7 +510,7 @@ header {
     .before-contact > p {
         font-size: calc(10px + 1vw);
         margin-top: 1em;
-        font-family: Geometria;
+        font-family: 'Geometria';
     }
     
 }
@@ -522,7 +535,7 @@ header {
 
 @media screen and (min-width: 600px) {
     .contact h1 {
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         margin-top: 2em;
         margin-left: 3em;
     }
@@ -539,7 +552,7 @@ header {
 
 @media screen and (max-width: 600px) {
     .contact > h1 {
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         margin-top: 2em;
         margin-left: 1em;
     }
@@ -555,7 +568,7 @@ header {
 
 
 .contact > form > input {
-    font-family: Geometria;
+    font-family: 'Geometria';
     background-color: #ebe6e1;
     margin-top: 1em;
     outline: none;
@@ -570,7 +583,7 @@ header {
     border: none;
     border-radius: 10px;
     outline: none;
-    font-family: Geometria;
+    font-family: 'Geometria';
     background-color: #ebe6e1;
     padding: 2em;
     max-width: calc(200px + 1vw);
@@ -580,7 +593,7 @@ header {
 
 @media screen and (min-width: 600px) {
     .contact > form > label {
-        font-family: Geometria;
+        font-family: 'Geometria';
         font-size: calc(10px + 1vh);
     }
     
@@ -598,7 +611,7 @@ header {
 .submit-button {
     border: none;
     border-radius: 10px;
-    font-family: Geometria-Medium;
+    font-family: 'Geometria-Medium';
     font-size: calc(10px + .5vw);
     background-color: #ebe6e1;
     padding: 1em;
@@ -625,14 +638,14 @@ header {
     }
 
     .newsletter > h1{
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         margin-top: 2em;
         letter-spacing: 1px;
         
     }
 
     .newsletter > form > label {
-        font-family: Geometria;
+        font-family: 'Geometria';
         font-size: calc(8px + 1vw);
     }
 
@@ -643,14 +656,14 @@ header {
         outline: none;
         padding: 1em;
         border-radius: 10px;
-        font-family: Geometria;
+        font-family: 'Geometria';
         font-size: calc(8px + 1vw);
     }
 
     .newsletter > p {
         color: #c26334;
         margin-top: 1em;
-        font-family: Geometria;
+        font-family: 'Geometria';
         max-width: 40vw;
         line-height: 2em;
     }
@@ -667,14 +680,14 @@ header {
     }
 
     .newsletter > h1{
-        font-family: Geometria-Medium;
+        font-family: 'Geometria-Medium';
         margin-top: 2em;
         letter-spacing: 1px;
         
     }
 
     .newsletter > form > label {
-        font-family: Geometria;
+        font-family: 'Geometria';
         font-size: calc(8px + 1vw);
     }
 
@@ -685,14 +698,14 @@ header {
         outline: none;
         padding: 1em;
         border-radius: 10px;
-        font-family: Geometria;
+        font-family: 'Geometria';
         font-size: calc(8px + 1vw);
     }
 
     .newsletter > p {
         color: #c26334;
         margin-top: 1em;
-        font-family: Geometria;
+        font-family: 'Geometria';
         font-size: 15px;
         line-height: 2em;
     }
@@ -725,7 +738,7 @@ header {
 
 .group > a {
     text-decoration: none;
-    font-family: Geometria;
+    font-family: 'Geometria';
     color: black;
     font-size: calc(15px + 1vw);
 }
