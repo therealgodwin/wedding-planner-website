@@ -450,6 +450,7 @@ background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, F
         align-items: center;
         text-align: center;
         background-image: url('assets/couple_facing_sunset.jpg');
+        background-attachment: fixed;
         background-position: center;
         background-size: cover;
     }
