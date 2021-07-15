@@ -436,7 +436,7 @@ header {
     
     .before-contact > h1 {
         font-weight: 300;
-        font-family: Kottario;
+        font-family: 'Allura', cursive;
         color: #73663b;
         font-size: calc(30px + 1vw);
     }
@@ -471,7 +471,7 @@ header {
     .before-contact > h1 {
         
         font-weight: 300;
-        font-family: Kottario;
+        font-family: 'Allura', cursive;
         color: #73663b;
         font-size: calc(30px + 1vw);
     }
