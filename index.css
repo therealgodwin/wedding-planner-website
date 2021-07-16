@@ -37,8 +37,8 @@ header {
     .burger-menu {
         display: block;
         position: absolute;
-        top: 0%;
-        right: 0%;
+        top: 0;
+        right: 0;
         margin-right: 1em;
         margin-top: 1em;
         margin-bottom: 1em;
@@ -46,7 +46,8 @@ header {
     
     .burger-menu > .burger-style{
         font-size: calc(14px + 1em);
-        color: white;
+        color: black;
+      
     }
 
     .set-black {
@@ -70,12 +71,17 @@ header {
     }
 
     
+    
     .link {
         text-align: center;
         margin-left: calc(5px + 1vw);
         padding: .5em;
         border: 2px solid white;
     }
+
+  
+
+    
 
     .link:hover {
         transition: .5s;
@@ -86,6 +92,7 @@ header {
         padding-right: 2.5em;
     }
     
+  
 }
 @media screen and (max-width: 600px) {
     header > .navbar {
@@ -130,6 +137,8 @@ header {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
     
 @media screen and (min-width: 600px) {
     section {
@@ -137,7 +146,6 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
     
         background-image: url('assets/background-image2.jpg');
         background-attachment: fixed;
@@ -155,7 +163,7 @@ header {
         margin-left: calc(12px + 1vw);
         margin-right: calc(12px + 1vw);
         text-align: center;
-        padding-bottom: 5em;
+        padding-bottom: 17vh;
     }
     
     section > .text-container > .title{
@@ -223,13 +231,14 @@ header {
         background-attachment: scroll;
         background-position: center;
         background-size: cover;
+        padding-bottom: 10vh;
     }
 
     .text-container {
         width: calc(300px + 1vw);
         padding-top: 7em;
         margin: auto;
-     
+        
         text-align: center;
     }
 
@@ -292,11 +301,12 @@ header {
 
 
 
+
+
 @media screen and (min-width: 600px) {
     .flex-item {
         margin-top: 2em;
-        margin-left: 5em;
-        margin-right: 5em;
+        margin-right: calc(2em + 1vw);
         display: flex;
     }
     .flex-item img {
@@ -305,8 +315,28 @@ header {
     }
 
     .text-content {
+        margin-left: 1em;
+    }
+
+    .flex-item > .text-content > h1 {
+        font-size: calc(15px + 1vw);
+        color: #2F2E2E;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    .text-content > span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        color: #2F2E2E;
+        font-size: calc(10px + .5vw);
+    }
+    
+    .text-content p {
         margin-top: 2em;
-        margin-left: 2em;
+        width: 50vw;
+        max-height: auto;
+       
     }
     
     
@@ -317,11 +347,34 @@ header {
         margin-top: 2em;
         margin-bottom: 2em;
         display: flex;
+        justify-content: center;
         flex-direction: column;
     }
     .flex-item img {
         width: auto;
         height: auto;
+    }
+
+    .flex-item > .text-content > h1 {
+        margin-top: 1em;
+        font-size: calc(15px + 1vw);
+        color: #2F2E2E;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    
+    .text-content > span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        color: #2F2E2E;
+        font-size: calc(10px + .5vw);
+    }
+    
+    .text-content p {
+        margin-top: 2em;
+        width: calc(300px + 1vw);
+        max-height: auto;
+       
     }
 
    
@@ -333,26 +386,9 @@ header {
 
 
 
-.flex-item > .text-content > h1 {
-    margin-top: 1em;
-    font-size: calc(15px + 1vw);
-    color: #2F2E2E;
-    font-family: 'Montserrat', sans-serif;
 
-}
 
-.text-content > span {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    color: #2F2E2E;
-    font-size: calc(6px + 1vw);
-}
 
-.text-content p {
-    margin-top: 2em;
-    max-width: 400px;
-    max-height: calc(400px +1vh);
-}
 
 @media screen and (min-width: 600px) {
     .gallery {
@@ -432,6 +468,7 @@ header {
         background-image: url('assets/couple_facing_sunset.jpg');
         background-position: center;
         background-size: cover;
+        height: 100vh;
     }
     
     .before-contact > h1 {
@@ -608,8 +645,8 @@ header {
 
 @media screen and (min-width: 600px) {
     .newsletter {
-        margin-right: 10em;
-        margin-left: 2em;
+        margin-right: 5vw;
+        margin-left: 1em;
     }
 
     .newsletter > h1{
@@ -621,7 +658,7 @@ header {
 
     .newsletter > form > label {
         font-family: 'Montserrat', sans-serif;
-        font-size: calc(8px + 1vw);
+        font-size: calc(10px + 1vh);
     }
 
     .newsletter > form > input {
@@ -632,7 +669,7 @@ header {
         padding: 1em;
         border-radius: 10px;
         font-family: 'Montserrat', sans-serif;
-        font-size: calc(8px + 1vw);
+        font-size: calc(10px + 1vh);
     }
 
     .newsletter > p {
