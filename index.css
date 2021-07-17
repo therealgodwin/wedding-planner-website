@@ -548,12 +548,12 @@ header {
     .contact h1 {
         font-family: 'Montserrat', sans-serif;
         margin-top: 2em;
-        margin-left: 3em;
+        margin-left: calc(50px + 1vw);
     }
     
     .contact > form {
         margin-top: 1em;
-        margin-left: 6em;
+        margin-left: calc(50px + 1vw);
         margin-bottom: 3em;
     }
 }
@@ -677,6 +677,7 @@ header {
         margin-top: 1em;
         font-family: 'Montserrat', sans-serif;
         max-width: 40vw;
+        font-size: calc(5px + 1vw);
         line-height: 2em;
     }
 
