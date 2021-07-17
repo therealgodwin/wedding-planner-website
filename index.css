@@ -277,9 +277,9 @@ header {
 
     .content {
     
-        width: 69vw;
+        width: 70vw;
         max-height: fit-content;
-        margin: auto;
+        margin:auto;
         margin-top: 2em;
     }
     .content > h1 {
@@ -372,7 +372,7 @@ header {
     
     .text-content p {
         margin-top: 2em;
-        width: calc(300px + 1vw);
+        width: 75vw;
         max-height: auto;
        
     }
