@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@400;500&family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -726,35 +728,81 @@ header {
     
 }
 
-
-
-.space-left {
-    margin-left: 1em;
+@media screen and (min-width: 600px) {
+    #subfooter > .group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2f2e2e;
+        height: fit-content;
+        text-align: center;
+        height: 35vh;
+        padding-bottom: 1em;
+        padding-top: 3em;
+    }
+    
+    #arrow > i {
+        color: white;
+        font-size: 40px;
+    }
+    
+    .group > a {
+        text-decoration: none;
+        font-weight: thin;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        
+        font-size: calc(10px + 1vw);
+        margin-bottom: 3em;
+    }
+    
+    .group > a:hover + #arrow{
+        background-color: violet;
+    }
+    
+    .group > p {
+        font-family: 'Raleway', sans-serif;
+        font-size: calc(5px + .8vw);
+        color: white;
+    }
 }
 
-
-#subfooter > .group{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #bfbab3;
-    height: fit-content;
-    text-align: center;
-    padding-bottom: 1em;
-}
-
-#arrow > i {
-    font-size: 50px;
-}
-
-.group > a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: calc(15px + 1vw);
-}
-
-.group > a:hover ~ #arrow{
-    background-color: violet;
+@media screen and (max-width: 600px) {
+    #subfooter > .group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2f2e2e;
+        height: fit-content;
+        text-align: center;
+        height: 20vh;
+        padding-bottom: 2em;
+        padding-top: 3em;
+    }
+    
+    #arrow > i {
+        color: white;
+        font-size: 40px;
+    }
+    
+    .group > a {
+        text-decoration: none;
+        font-weight: thin;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        
+        font-size: calc(15px + 1vw);
+        margin-bottom: 3em;
+    }
+    
+    .group > a:hover + #arrow{
+        background-color: violet;
+    }
+    
+    .group > p {
+        font-family: 'Raleway', sans-serif;
+        font-size: calc(10px + .8vw);
+        color: white;
+    }
+    
 }
