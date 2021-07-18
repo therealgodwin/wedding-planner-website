@@ -237,7 +237,7 @@ header {
         background-attachment: scroll;
         background-position: center;
         background-size: cover;
-        padding-bottom: 10vh;
+        padding-bottom: 2em;
     }
 
     .text-container {
