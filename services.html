@@ -43,7 +43,7 @@
     </header>
 
 
-    <div class="content">
+    <div class="content" id="content">
         <h1>Our Services</h1>
         <hr>
 
@@ -57,6 +57,68 @@
 
             
         </div>
-    </div>
+
+        <div class="card card-reversed">
+            <img src="assets/1.jpeg" alt="">
+            <div class="flex-text">
+                <h1>Prenup Photoshoots</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sequi aperiam cumque placeat, molestiae alias dolor adipisci aut nostrum nesciunt nemo labore ipsa voluptas dolores. Odio, optio. Repellendus, suscipit aliquid!</p>
+            </div>
+            
+
+            
+        </div>
+        <div class="card">
+            <img src="assets/wedding-elope.jpg" alt="">
+            <div class="flex-text">
+                <h1>Wedding Elopement</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sequi aperiam cumque placeat, molestiae alias dolor adipisci aut nostrum nesciunt nemo labore ipsa voluptas dolores. Odio, optio. Repellendus, suscipit aliquid!</p>
+            </div>
+            
+
+            
+        </div>
+        <div class="card card-reversed">
+            <img src="assets/wedding-reception.jpg" alt="">
+            <div class="flex-text">
+                <h1>Regal Wedding Receptions</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sequi aperiam cumque placeat, molestiae alias dolor adipisci aut nostrum nesciunt nemo labore ipsa voluptas dolores. Odio, optio. Repellendus, suscipit aliquid!</p>
+            </div>
+            
+        </div>
+
+        <div id="footer">
+            <div class="group">
+                <div id="arrow">
+                    <i class="fas fa-angle-up" id="arrow"></i>
+                </div>
+                
+                <a href="#content">Back To Top</a>
+    
+                <p>Timeless Wedding Events by Alyssa</p>
+                <p>0977099212</p>
+                <p>alyssa-wedding-planner@gmail.com</p>
+            </div>
+            
+        </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <script>
+        
+            $(document).ready(function() {
+                var navbar = $("#navbar")
+                var showNavs = $("#showNavs")
+    
+                $("#showNavs").click(function() {
+                    navbar.toggle("slow");
+                    
+                })
+    
+    
+               
+            })
+        </script>
 </body>
 </html>

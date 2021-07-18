@@ -25,6 +25,8 @@ header {
 
 
 
+
+
 @media screen and (min-width: 600px) {
     .burger-menu {
         display: none;
@@ -68,19 +70,28 @@ header {
         align-items: center;
         padding: 1em;
         padding-top: 1.2em;
-        margin-left: 3em;
-        margin-right: 3em;
+   
+        margin-left: calc(2em + 1vw);
+        margin-right: calc(2em + 1vw);
     }
 
     
     
     .link {
         text-align: center;
-        margin-left: calc(5px + 1vw);
-        padding: .5em;
+        margin-left: calc(.2em + 1vw);
+        margin-right: calc(.2em + 1vw);
+        padding-top: calc(1px + 1vw);
+        padding-bottom: calc(1px + 1vw);
+        padding-left: calc(5px + 1vw);
+        padding-right: calc(5px + 1vw);
         border: 2px solid white;
     }
 
+    .link-active {   
+        border: 2px solid black;
+    
+    }
   
 
     
@@ -88,17 +99,13 @@ header {
     .link:hover {
         transition: .5s;
         border: 2px solid black;
-        padding-top: .5em;
-        padding-bottom: .5em;
-        padding-left: 2.5em;
-        padding-right: 2.5em;
+      
     }
     
   
 }
 @media screen and (max-width: 600px) {
     header > .navbar {
-        transition: 2s;
         padding-top: 1em;
         margin-left: 2em;
         display: none;
@@ -114,7 +121,7 @@ header {
     header > .navbar > .link > a{
         color: black;
         text-decoration: none;
-        font-size: calc(10px + .2vw);
+        font-size: 12px;
         line-height: 10px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
@@ -581,25 +588,27 @@ header {
 
 .contact > form > input {
     font-family: 'Montserrat', sans-serif;
-    background-color: #ebe6e1;
+    background-color: #2f2e2e;
     margin-top: 1em;
     outline: none;
+    border-radius: 10px;
     border: none;
+    color: white;
     padding: 1em;
     font-size: calc(10px + 1vh);
-    border-radius: 10px;
 }
 
 .contact > form > textarea {
     margin-top: 1em;
     border: none;
-    border-radius: 10px;
     outline: none;
     font-family: 'Montserrat', sans-serif;
-    background-color: #ebe6e1;
-    padding: 2em;
+    background-color: #2f2e2e;
+    border-radius: 10px;
+    padding: 1em;
+    color: white;
     max-width: calc(200px + 1vw);
-    min-width: 200px;
+    min-width: 20vw;
     max-height: 15vh;
 }
 
@@ -622,11 +631,11 @@ header {
 
 .submit-button {
     border: none;
-    border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: calc(10px + .5vw);
-    background-color: #ebe6e1;
+    color: white;
+    background-color: #2f2e2e;
     padding: .7em;
     margin-top: 1em;
     transition: .5s;
@@ -646,8 +655,8 @@ header {
 
 @media screen and (min-width: 600px) {
     .newsletter {
-        margin-right: 5vw;
-        margin-left: 1em;
+        margin-right: 10vw;
+        margin-left: calc(2em + 1vw);
     }
 
     .newsletter > h1{
@@ -664,12 +673,14 @@ header {
 
     .newsletter > form > input {
         margin-top: 2em;
-        background-color: #ebe6e1;
+        background-color: #2f2e2e;
         border: none;
+        border-radius: 10px;
         outline: none;
         padding: 1em;
-        border-radius: 10px;
+        color: white;
         font-family: 'Montserrat', sans-serif;
+        margin-right: 1em;
         font-size: calc(10px + 1vh);
     }
 
@@ -688,7 +699,7 @@ header {
 
 @media screen and (max-width: 600px) {
     .newsletter {
-        margin-left: 1em;
+        margin-left: 2em;
         margin-bottom: 3em;
     }
 
@@ -706,13 +717,14 @@ header {
 
     .newsletter > form > input {
         margin-top: 2em;
-        background-color: #ebe6e1;
+        background-color: #2f2e2e;
         border: none;
+        color: white;
         outline: none;
-        padding: .7em;
         border-radius: 10px;
+        padding: .7em;
         font-family: 'Montserrat', sans-serif;
-        font-size: calc(8px + 1vw);
+        font-size: calc(12px + 1vw);
     }
 
     .newsletter > p {
