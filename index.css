@@ -101,6 +101,7 @@ header {
         padding-top: 1em;
         margin-left: 2em;
         display: none;
+        height: 35vh;
         padding-bottom: 1em;
     }
     
@@ -130,7 +131,6 @@ header {
         line-height: 3em;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        margin-top: 200px;
         
     }
     
