@@ -321,6 +321,7 @@ header {
     .flex-item > .text-content > h1 {
         font-size: calc(15px + 1vw);
         color: #2F2E2E;
+        font-weight: 100;
         font-family: 'Montserrat', sans-serif;
     
     }
