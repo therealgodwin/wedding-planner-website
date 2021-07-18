@@ -98,6 +98,7 @@ header {
 }
 @media screen and (max-width: 600px) {
     header > .navbar {
+        transition: 2s;
         padding-top: 1em;
         margin-left: 2em;
         display: none;
